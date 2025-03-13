@@ -1,1 +1,19 @@
+/* styles.css */
+.col-lg-9.table-responsive {
+    display: block !important; /* Ensure table visibility */
+    border: 2px solid #4CAF50; /* Green border for visibility */
+    padding: 10px;
+}
 
+#export_excel_formm {
+    background-color: #4CAF50; /* Green button */
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+}
+
+#export_excel_formm:disabled {
+    background-color: gray; /* Disabled state */
+    cursor: not-allowed;
+}
