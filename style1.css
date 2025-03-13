@@ -1,0 +1,12 @@
+.col-lg-9.table-responsive {
+    display: block !important; /* Ensure table visibility */
+    padding: 10px;
+}
+
+#export_excel_formm {
+    background-color: #4CAF50; /* Green button */
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+}
